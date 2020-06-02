@@ -27,7 +27,7 @@ namespace WishList.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View("create");
+            return View("Create");
         }
 
         [HttpPost]
